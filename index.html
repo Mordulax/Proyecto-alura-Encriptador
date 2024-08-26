@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/Logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="assets/Logo.png" alt="logo alura">
+    </header>
+    <main>   
+        <form class="contenedor_section1">
+            <textarea class="section1_entrada" name="mensaje" id="input" cols="30" rows="10"  placeholder="Ingrese texto aqui"></textarea>
+            <div>
+                <div class="alert_msj">
+                    <img src="assets/Vector.png" alt="alert icon">
+                    <span>Solo letras minúsculas y sin acentos </span>
+                    <p id="error"></p>
+                </div>
+            </div>
+            <div class="contenedor_btn">
+                <input class="botones" type="submit" id="btn" value="Encriptar">
+                <input class="botones  botones_secundary " type="submit" id="btn" value="Desencriptar"> 
+            </div> 
+        </form>
+        <aside class="resultado">
+            <img src="assets/Muñeco.png" alt="imagen de muneco" class="resultado_img">
+            <div class="resultado_contenedor">
+                
+                <h3 class="resultado_titulo">Ningún mensaje fue encontrado</h3>
+                <textarea class="prueba hidden" readonly id="" cols="30" rows="10"></textarea>
+                <p class="resultado_texto">Ingresa el texto que desees encriptar o desencriptar</p>
+                <button class="resultado_btn botones botones_secundary btn_copiar hidden">Copiar</button>
+            </div>
+        </aside>
+        <footer class="footer">
+            <p>Desarrollado por KevinB</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
