@@ -8,7 +8,7 @@
 <p align="center"> Funciona solo con letras minúsculas. no puede ulitizar letras mayúsculas ni letras con acentos. Puede convertir una palabra a su versión encriptada y también puede devolver una palabra encriptada a su versión original, puede copiar despues el valor de encriptar o desencriptar.<br>
 Es un desafío propuesto por **"Alura latam"**, curso desarrollado para el aprendizaje inicial de programación utilizando lenguajes estándar como HTML, CSS y JavaScript.</p>
 
-<p>Su funcionalidad permite tanto encriptar como desencriptar mensajes utilizando una clave específica.</p>
+<p align="center">Su funcionalidad permite tanto encriptar como desencriptar mensajes utilizando una clave específica.</p>
 
 <table align="center">
   <tr>
